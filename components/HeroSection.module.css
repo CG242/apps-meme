@@ -36,8 +36,8 @@
   content: '';
   position: absolute;
   inset: 0;
-  /* Légère brume blanche pour garder le texte noir lisible sans "carré" */
-  background: rgba(255, 255, 255, 0.35);
+  /* Overlay très léger pour garder le texte noir lisible tout en gardant l'image nette */
+  background: rgba(255, 255, 255, 0.15);
   z-index: 1;
   pointer-events: none;
 }
